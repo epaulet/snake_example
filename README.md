@@ -37,7 +37,9 @@ In addition to the webpack entry file, there will be several scripts involved in
 
 * `food` - constructor, render and update functions for the ball
 
-* `player` - logic for the player's actions
+* `player` - keymapping snake actions
+
+* `obstacle` - constructor, render and update functions for an obstacle
 
 
 ### Implementation Timeline
@@ -48,7 +50,7 @@ Setup all necessary Node modules, including getting webpack up and running.  Cre
 
 - Get a green bundle with `webpack`
 - Learn enough `Easel.js` to render an object to the `Canvas` element
-- Write the snake and food classes
+- Write the `snake` class
 
 **Day 2**:
 
@@ -56,15 +58,21 @@ Write the player and game logic.  Goals for the day:
 
 - Complete the `player` class
 - Complete the `game` class
+- Complete the `food` class
+
+At the end of day 2, the snake should be able to move around on the grid
 
 **Day 3**:
+
+- Complete the logic for scoring, within the `game` class, as well as the losing logic
+- Complete the `obstacle` class
+
+**Day 4**:
 
 Finishing touches and styling.  Goals for the day:
 
 - Make sure gameplay is fun, functional, and sufficiently challenging
 - Style the game, including welcome modal and game over modal
-
-
 
 ### Bonus features
 
